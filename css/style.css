@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(121, 95, 238),rgb(5, 5, 5));
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 60px;
+}
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+.container{
+    max-width: 955px;
+    border: 2px solid black;
+    border-radius: 13px;
+    margin: auto;
+    height: 60vh;  /*viewport height*/
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    /* background-image:url('chatback.png'); */
+    background: center / cover no-repeat url("../chatback1.jpg");
+}
+
+.message{
+    background-color: rgb(48, 44, 44);
+    color: white;
+    width: 30%;
+    padding: 10px;
+    margin: 17px 12px;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+.left{
+    /* The CSS float property specifies how an element should float. */
+    float: left;
+    /*The CSS clear property specifies what elements can float beside the cleared element and on which side*/
+    clear:both;
+}
+
+.right{
+    float: right;
+    clear:both;
+    background-color: rgb(4, 95, 60);
+}
+
+.sam{
+    float: right;
+    clear:both;
+    background-color: rgb(77, 66, 231);
+}
+
+.send{
+    margin: 0px auto;
+    max-width: 1000px;
+    border-radius: 20px;
+    background-color: rgb(48, 44, 44);
+    outline: none;
+}
+
+#send-container{
+    display:inline-block;
+    margin: auto;
+    text-align: center;
+    max-width: 1085px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#messageInp{
+    width: 80%;
+    border: 0;
+    height: 34px;
+    font-size: 22px;
+    outline: none;
+    padding-left: 20px;
+    background-color: rgb(48, 44, 44);
+    color: white;
+    border-radius: 20px;
+}
+
+#messageInp:hover{
+    background-color: white;
+    color: black;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+}
+
+
+.btn{
+    margin: 0 5px;
+    width: 4%;
+    cursor: pointer;
+    height: 34px;
+    border: 0;
+    font-size: 22px;
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(48, 44, 44);
+    outline: none;
+    color: white;
+    background-color: yellowgreen;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+@media only screen and (max-width:400px){
+    #messageInp{
+        width: 60%;
+    }
+    #messageInp:hover{
+        background-color: white;
+        color: black;
+        /* border: 2px solid black; */
+        border-radius: 20px;
+    }
+    .btn{
+        width: 10%;
+    }
+}
+@media (min-width:400px)and (max-width:500px){
+    #messageInp{
+        width: 70%;
+    }
+    #messageInp:hover{
+        background-color: white;
+        color: black;
+        /* border: 2px solid black; */
+        border-radius: 20px;
+    }
+    .btn{
+        width: 8%;
+    }
+}
+@media (min-width:500px)and (max-width:600px){
+    #messageInp{
+        width: 70%;
+    }
+    #messageInp:hover{
+        background-color: white;
+        color: black;
+        /* border: 2px solid black; */
+        border-radius: 20px;
+    }
+    .btn{
+        width: 7%;
+    }
+}
+@media (min-width:600px)and (max-width:700px){
+    #messageInp{
+        width: 70%;
+    }
+    #messageInp:hover{
+        background-color: white;
+        color: black;
+        /* border: 2px solid black; */
+        border-radius: 20px;
+    }
+    .btn{
+        width: 6%;
+    }
+}
+@media (min-width:700px)and (max-width:800px){
+    #messageInp{
+        width: 70%;
+    }
+    #messageInp:hover{
+        background-color: white;
+        color: black;
+        /* border: 2px solid black; */
+        border-radius: 20px;
+    }
+    .btn{
+        width: 5%;
+    }
+}
+@media (min-width:800px)and (max-width:900px){
+    #messageInp{
+        width: 70%;
+    }
+    #messageInp:hover{
+        background-color: white;
+        color: black;
+        /* border: 2px solid black; */
+        border-radius: 20px;
+    }
+    .btn{
+        width: 5%;
+    }
+}
