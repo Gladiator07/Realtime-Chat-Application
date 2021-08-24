@@ -1,7 +1,7 @@
 
 // Node server which will handle socket io connections
 //creating node server port=8000
-const io = require('socket.io')(8080)
+const io = require('socket.io')(process.env.PORT || 5000)
 
 //for users
 const users = {};
