@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Harry",
+  "author": "Samar",
   "license": "ISC",
   "dependencies": {
     "socket.io": "^2.3.0"
