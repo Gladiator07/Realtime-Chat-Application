@@ -11,5 +11,8 @@
   "dependencies": {
     "socket.io": "^2.3.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "engines": {
+    "node": "14.x"
+  }
 }
