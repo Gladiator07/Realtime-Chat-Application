@@ -4,9 +4,9 @@
   "description": "This is a node server for our iChat application",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
-  "author": "Harry",
+  "author": "Samar",
   "license": "ISC",
   "dependencies": {
     "socket.io": "^2.3.0"
