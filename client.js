@@ -1,4 +1,9 @@
-const socket = io('http://localhost:5000');
+const socketURL =
+  process.env.NODE_ENV === 'production'
+    ? window.location.hostname
+    : 'https://localhost:5000';
+
+const socket = io.connect(socketURL, {secure: true});
 
 // Get DOM(Document Object Model ) elements in respective Js variables
 const form = document.getElementById('send-container');
