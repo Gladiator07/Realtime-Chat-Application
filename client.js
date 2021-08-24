@@ -1,4 +1,4 @@
-const socket = io('http://localhost:5000');
+const socket = io('http://localhost:8080');
 
 // Get DOM(Document Object Model ) elements in respective Js variables
 const form = document.getElementById('send-container');
