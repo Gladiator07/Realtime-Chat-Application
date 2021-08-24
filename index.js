@@ -19,7 +19,7 @@ io.on('connection', socket =>{
         socket.broadcast.emit('receive', {message : message, name : users[socket.id]})
     });
 
-    // If someone leaves the chat, let others know 
+    // If someone leaves the chat, let others know that
     socket.on('disconnect', message =>{
         socket.broadcast.emit('left', users[socket.id]);
         delete users[socket.id];
